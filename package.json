@@ -1,0 +1,36 @@
+{
+  "name": "badge-dashboard",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "lodash": "^4.17.21",
+    "pinia": "^2.0.35",
+    "v-calendar": "^3.0.3",
+    "vee-validate": "^4.8.6",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue3-base-components": "^1.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^2.0.0",
+    "@types/node": "^18.16.3",
+    "@vitejs/plugin-vue": "^4.2.1",
+    "@vue/tsconfig": "^0.3.2",
+    "autoprefixer": "^10.4.14",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "typescript": "~5.0.4",
+    "vite": "^4.3.4",
+    "vue-tsc": "^1.6.4"
+  }
+}
